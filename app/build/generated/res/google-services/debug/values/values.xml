@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">820511387476-iifigoji8nl2jphoi7027e3n3ult7sk5.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">820511387476</string>
+    <string name="google_api_key" translatable="false">AIzaSyCLN7j0d2hjDviGOCQfwdVlEFLiw3dHr10</string>
+    <string name="google_app_id" translatable="false">1:820511387476:android:31e1dd2e193495308622c1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCLN7j0d2hjDviGOCQfwdVlEFLiw3dHr10</string>
+    <string name="google_storage_bucket" translatable="false">kabin-6f224.appspot.com</string>
+    <string name="project_id" translatable="false">kabin-6f224</string>
+</resources>

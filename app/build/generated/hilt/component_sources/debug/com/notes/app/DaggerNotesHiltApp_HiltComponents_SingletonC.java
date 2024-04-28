@@ -568,7 +568,7 @@ public final class DaggerNotesHiltApp_HiltComponents_SingletonC {
     }
 
     @Override
-    public void injectNotesHiltApp(NotesHiltApp arg0) {
+    public void injectNotesHiltApp(NotesHiltApp notesHiltApp) {
     }
 
     @Override

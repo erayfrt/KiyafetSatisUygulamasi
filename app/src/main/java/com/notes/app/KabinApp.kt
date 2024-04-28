@@ -45,10 +45,10 @@ fun NotesApp() {
 @Composable
 fun rememberAppState(navController: NavHostController = rememberNavController()) =
     remember(navController) {
-        NotesAppState(navController)
+        KabinAppState(navController)
     }
 
-fun NavGraphBuilder.notesGraph(appState: NotesAppState) {
+fun NavGraphBuilder.notesGraph(appState: KabinAppState) {
     composable(NOTES_LIST_SCREEN) {
         NotesListScreen(
             restartApp = { route -> appState.clearAndNavigate(route) },

@@ -4,7 +4,7 @@ import androidx.compose.runtime.Stable
 import androidx.navigation.NavHostController
 
 @Stable
-class NotesAppState(val navController: NavHostController) {
+class KabinAppState(val navController: NavHostController) {
     fun popUp() {
         navController.popBackStack()
     }

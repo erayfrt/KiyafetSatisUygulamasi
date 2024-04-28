@@ -122,7 +122,7 @@
     <item name="wrapped_composition_tag" type="id"/>
     <integer name="google_play_services_version">12451000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <string name="account_center">Account center</string>
+    <string name="account_center">Hesap Yönetimi</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
     <string name="app_name">Kabin</string>
     <string name="authenticate">Authenticate</string>
@@ -133,7 +133,7 @@
     <string name="call_notification_incoming_text">Incoming call</string>
     <string name="call_notification_ongoing_text">Ongoing call</string>
     <string name="call_notification_screening_text">Screening an incoming call</string>
-    <string name="cancel">Cancel</string>
+    <string name="cancel">İptal</string>
     <string name="close_drawer">"Close navigation menu"</string>
     <string name="close_sheet">"Close sheet"</string>
     <string name="collapsed">Collapsed</string>
@@ -155,14 +155,14 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="confirm_password">Confirm password</string>
+    <string name="confirm_password">Şifreyi Onayla</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="default_error_message">"Invalid input"</string>
     <string name="default_popup_window_title" ns2:ignore="ExtraTranslation">"Pop-Up Window"</string>
     <string name="default_web_client_id" translatable="false">820511387476-iifigoji8nl2jphoi7027e3n3ult7sk5.apps.googleusercontent.com</string>
-    <string name="delete_account">Delete account</string>
-    <string name="delete_account_description">You will lose all your notes and your account will be deleted. This action is irreversible.</string>
-    <string name="delete_account_title">Delete account?</string>
+    <string name="delete_account">Hesabı sil</string>
+    <string name="delete_account_description">Hesabınızı geri alınamaz şekilde sileceksiniz.</string>
+    <string name="delete_account_title">Hesabı silmek istediğinize emin misiniz?</string>
     <string name="dialog">"Dialog"</string>
     <string name="dropdown_menu">"Dropdown menu"</string>
     <string name="email">Email</string>
@@ -181,21 +181,21 @@
     <string name="not_selected">Not selected</string>
     <string name="off">Off</string>
     <string name="on">On</string>
-    <string name="password">Password</string>
+    <string name="password">Şifre</string>
     <string name="profile_email">Email: %1$s</string>
-    <string name="profile_name">Display name</string>
+    <string name="profile_name">Kullanıcı Adı</string>
     <string name="profile_provider">Account provider: %1$s</string>
     <string name="profile_uid">UID: %1$s</string>
     <string name="project_id" translatable="false">kabin-6f224</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
     <string name="selected">Selected</string>
-    <string name="sign_in">Sign in</string>
-    <string name="sign_out">Sign out</string>
-    <string name="sign_out_description">You will have to sign in again to see your notes.</string>
-    <string name="sign_out_title">Sign out?</string>
-    <string name="sign_up">Sign up</string>
-    <string name="sign_up_description">Don\'t have an account? Click here to Sign Up!</string>
+    <string name="sign_in">Giriş yap</string>
+    <string name="sign_out">Çıkış yap</string>
+    <string name="sign_out_description">Tekrar giriş yapmak zorundasınız.</string>
+    <string name="sign_out_title">Çıkış yapmak istediğinize emin misiniz?</string>
+    <string name="sign_up">Kaydol</string>
+    <string name="sign_up_description">Hesabınız yok mu? Buraya tıklayarak kayıt olun!</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tab">Tab</string>
     <string name="template_percent"><ns1:g id="percentage">%1$d</ns1:g> percent.</string>
@@ -258,23 +258,14 @@
         <attr format="reference" name="fontProviderCerts"/>
         
         <attr name="fontProviderFetchStrategy">
-            <!-- The blocking font fetch works as follows.
-              First, check the local cache, then if the requested font is not cached, request the
-              font from the provider and wait until it is finished.  You can change the length of
-              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-              default typeface will be used instead. -->
+            
             <enum name="blocking" value="0"/>
-            <!-- The async font fetch works as follows.
-              First, check the local cache, then if the requeted font is not cached, trigger a
-              request the font and continue with layout inflation. Once the font fetch succeeds, the
-              target text view will be refreshed with the downloaded font data. The
-              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            
             <enum name="async" value="1"/>
         </attr>
         
         <attr format="integer" name="fontProviderFetchTimeout">
-            <!-- A special value for the timeout. In this case, the blocking font fetching will not
-              timeout and wait until a reply is received from the font provider. -->
+            
             <enum name="forever" value="-1"/>
         </attr>
         
